@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className='py-20 px-4 max-w-6xl mx-auto'>
       <h1 className='text-3xl font-bold mb-4 text-slate-800'>
-        About Find My Home
+        About 70Homes
       </h1>
       <p className='mb-4 text-slate-700'>
         Welcome to Find My Home, your trusted partner in finding the perfect home that suits your lifestyle and preferences. At Find My Home, we understand that a home is not just a place; it's a reflection of your dreams, aspirations, and the foundation for countless memories.
