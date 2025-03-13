@@ -55,6 +55,74 @@ const listingSchema = new mongoose.Schema(
             type: String,
             required: true,
         },
+        user_type: {
+            type: String,
+            required: true,
+        },
+
+        // Additional Features
+        seaView: {
+            type: Boolean,
+            default: false,
+        },
+        cityView: {
+            type: Boolean,
+            default: false,
+        },
+        wheelchairAccessible: {
+            type: Boolean,
+            default: false,
+        },
+        elevator: {
+            type: Boolean,
+            default: false,
+        },
+
+        // Amenities
+        balcony: {
+            type: Boolean,
+            default: false,
+        },
+        garden: {
+            type: Boolean,
+            default: false,
+        },
+        terrace: {
+            type: Boolean,
+            default: false,
+        },
+        petFriendly: {
+            type: Boolean,
+            default: false,
+        },
+
+        // Security Features
+        cctv: {
+            type: Boolean,
+            default: false,
+        },
+        securityGuard: {
+            type: Boolean,
+            default: false,
+        },
+        gatedCommunity: {
+            type: Boolean,
+            default: false,
+        },
+
+        // Energy Efficiency & Availability
+        solarPanels: {
+            type: Boolean,
+            default: false,
+        },
+        energyEfficient: {
+            type: Boolean,
+            default: false,
+        },
+        immediateAvailability: {
+            type: Boolean,
+            default: false,
+        },
     }, {timestamps: true} // save time of creation & updation
 )
 

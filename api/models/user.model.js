@@ -4,7 +4,6 @@ import mongoose from 'mongoose';
         username: {
             type: String,
             required: true,
-            unique: true,
         },
         email: {
             type: String,
@@ -15,6 +14,18 @@ import mongoose from 'mongoose';
             type: String,
             required: true,
         },
+        user_type: {
+            type: String,
+            required: true,
+        },
+        adminApproved: { 
+            type: Boolean, 
+            default: false 
+        }, // Default to false
+        paymentReceived: { 
+            type: Boolean, 
+            default: false 
+        }, // Default to false
         avatar: {
             type: String,
             default: "https://i.redd.it/0s865ngkc4t81.jpg",
