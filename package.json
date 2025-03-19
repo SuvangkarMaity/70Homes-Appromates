@@ -1,8 +1,8 @@
 {
-  "name": "real-estate-marketplace",
+  "name": "70-homes",
   "type": "module",
   "version": "1.0.0",
-  "description": "Modern Real Estate Marketplace with MERN, json web tokens authentication and redux toolkit.",
+  "description": "Modern app with MERN, json web tokens authentication and redux toolkit.",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon api/index.js",
